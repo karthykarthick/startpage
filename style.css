@@ -4,7 +4,7 @@ body {
 }
 .banner {
   background-color: #282d39;
- 
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
@@ -26,3 +26,40 @@ body {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+
+/*  */
+
+.some-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    background-color: black;
+    color: white;
+}
+
+/*  */
+.search{
+    background-color: black;
+}
+
+.search-logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.search-form input  {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ad6dc7;
+    width: 35%;
+    padding: 10px;
+    outline: none;
+}
+

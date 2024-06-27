@@ -40,6 +40,8 @@ body {
 /*  */
 .search{
     background-color: black;
+    padding-bottom: 260px;
+    padding-top: 60px;
 }
 
 .search-logo{
@@ -57,9 +59,87 @@ body {
 .search-form input  {
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid #ad6dc7;
+    border:  1px solid rgb(166, 175, 255);;
     width: 35%;
-    padding: 10px;
+    padding: 13px 30px;
     outline: none;
+    background-color: black;
+    color:white;
 }
 
+/*  */
+
+.section1-internet{
+    display: flex;
+    background-image: url(desktop-top-swoosh-black.svg);
+    padding: 60px;
+    background-color: black;
+    background-position: 50% 100%;
+}
+
+.section1-internet .section-hover button{
+    border: 1px solid rgb(41, 221, 204);
+    border-color: none;
+
+}
+
+.section1-internet .section-hover {
+    border: 1px solid rgb(41, 221, 204);
+    color: rgb(255, 255, 255);
+    width: 110px;
+    padding: 0 32px;
+    border-radius: 5px;
+}
+
+.section1-internet .section-hover:hover{
+    background-color: rgb(41, 221, 204);
+    color: white;
+}
+   
+
+/*  */
+.section1-internet .text h2{
+    color: white;
+    font-size: min(max(60px, 4vw), 56px);
+    line-height: min(max(48px, 4vw), 64px);
+}
+
+.section1-internet .text > p{
+    color: white;
+    font-size: larger;
+}
+
+/*  */
+.section2-girl{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.girl-head{
+    margin-top: 155px;
+    font-size: 60px;
+    color: white;
+}
+
+.girl-body{
+    font-size: 23px;
+    color: white;
+}
+
+.girl-text .girl-hover {
+    border: 1px solid rgb(41, 221, 204);
+    background-color: rgb(41, 221, 204);
+    color: rgb(255, 255, 255);
+    width: 98px;
+    padding: 0 32px;
+    border-radius: 10px;
+    font-size: medium;
+}
+.girl-hover:hover{
+   cursor: pointer;
+    border-color: none;
+    background-color: black;
+}

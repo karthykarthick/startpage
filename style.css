@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
@@ -127,6 +130,7 @@ body {
 .girl-body{
     font-size: 23px;
     color: white;
+    width: 96%;
 }
 
 .girl-text .girl-hover {
@@ -142,4 +146,29 @@ body {
    cursor: pointer;
     border-color: none;
     background-color: black;
+}
+
+
+/*  */
+.quality{
+    background-color: black;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quality-head{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.quality-body{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+    margin-top: -25px;
 }

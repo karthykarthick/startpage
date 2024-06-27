@@ -133,6 +133,11 @@ body {
     width: 96%;
 }
 
+.img-girl,.girl-text,.text,.img{
+    width: 50%;
+}
+
+
 .girl-text .girl-hover {
     border: 1px solid rgb(41, 221, 204);
     background-color: rgb(41, 221, 204);
